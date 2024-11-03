@@ -1,8 +1,13 @@
 import {NavLink} from "react-router-dom";
+import CartIcon from "../assets/cart-large-minimalistic-svgrepo-com.svg";
+import HeartIcon from "../assets/heart-svgrepo-com.svg";
 
 export const Navbar = () => {
 
-    const activeLinkStyle = "font-semibold underline"
+    const isIndex = location.pathname === "/";
+
+
+    const activeLinkStyle = `font-semibold underline ${isIndex ? "text-white" : null} text-purple-600`
     const navLinks = [
         {
             path: "/",
@@ -17,6 +22,7 @@ export const Navbar = () => {
             label: "Dashboard",
         },
     ]
+
 
     return (
         <>
@@ -42,13 +48,13 @@ export const Navbar = () => {
                     <button>
                         <img
                             className={"size-8 p-1 bg-white rounded-full"}
-                            src="/src/assets/cart-large-minimalistic-svgrepo-com.svg" alt="cart icon"
+                            src={CartIcon} alt="cart icon"
                         />
                     </button>
                     <button>
                         <img
                             className={"size-10"}
-                            src="/src/assets/heart-svgrepo-com.svg" alt="heart icon"
+                            src={HeartIcon} alt="heart icon"
                         />
                     </button>
                 </div>
