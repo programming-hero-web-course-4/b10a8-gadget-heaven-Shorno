@@ -1,6 +1,23 @@
 import {NavLink} from "react-router-dom";
 
 export const Navbar = () => {
+
+    const activeLinkStyle = "font-semibold underline"
+    const navLinks = [
+        {
+            path: "/",
+            label: "Home",
+        },
+        {
+            path: "/statistics",
+            label: "Statistics",
+        },
+        {
+            path: "/dashboard",
+            label: "Dashboard",
+        },
+    ]
+
     return (
         <>
             <div className="navbar container mx-auto">
@@ -9,15 +26,16 @@ export const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex gap-4">
-                        <li>
-                            <NavLink to={"/"} className={"font-semibold hover:underline"}>Home</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to={"/statistics"} className={"font-semibold hover:underline"}>Statistics</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to={"/dashboard"} className={"font-semibold hover:underline"}>Dashboard</NavLink>
-                        </li>
+
+                        {navLinks.map((link) => (
+                            <li key={link.path}>
+                                <NavLink to={link.path}
+                                         className={({isActive}) => `${isActive ? activeLinkStyle : null}`}
+                                >
+                                    {link.label}
+                                </NavLink>
+                            </li>
+                        ))}
                     </ul>
                 </div>
                 <div className="navbar-end gap-4">

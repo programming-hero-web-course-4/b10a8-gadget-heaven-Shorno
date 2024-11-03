@@ -1,6 +1,6 @@
 import {Hero} from "../components/index.js";
 
-export default function Home() {
+export const Home = () => {
     return (
         <>
             <Hero/>
