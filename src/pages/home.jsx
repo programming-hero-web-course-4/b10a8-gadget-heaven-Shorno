@@ -1,9 +1,10 @@
-import {Hero} from "../components/index.js";
+import {Hero, ProductSection} from "../components/index.js";
 
 export const Home = () => {
     return (
         <>
             <Hero/>
+            <ProductSection/>
         </>
     )
 }

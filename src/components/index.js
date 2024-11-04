@@ -1,3 +1,5 @@
 export {Navbar} from "./navbar.jsx"
 export {Hero} from "./hero.jsx"
 export {Footer} from "./footer.jsx"
+export {ProductSection} from "./product-section.jsx"
+export {ProductCard} from "./product-card.jsx"

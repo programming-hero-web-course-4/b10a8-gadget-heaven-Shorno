@@ -1,6 +1,5 @@
 import {NavLink} from "react-router-dom";
-import CartIcon from "../assets/cart-large-minimalistic-svgrepo-com.svg";
-import HeartIcon from "../assets/heart-svgrepo-com.svg";
+import {Heart, ShoppingCart} from "lucide-react";
 
 export const Navbar = () => {
 
@@ -46,16 +45,10 @@ export const Navbar = () => {
                 </div>
                 <div className="navbar-end gap-4">
                     <button>
-                        <img
-                            className={"size-8 p-1 bg-white rounded-full"}
-                            src={CartIcon} alt="cart icon"
-                        />
+                        <ShoppingCart className="w-5 h-5"/>
                     </button>
                     <button>
-                        <img
-                            className={"size-10"}
-                            src={HeartIcon} alt="heart icon"
-                        />
+                        <Heart className="w-5 h-5"/>
                     </button>
                 </div>
             </div>

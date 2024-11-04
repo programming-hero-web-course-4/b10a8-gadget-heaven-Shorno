@@ -1,0 +1,290 @@
+[
+  {
+    "product_id": "L001",
+    "product_title": "ASUS TUF GAMING A15 FA507RM",
+    "product_image": "https://i.postimg.cc/9MqKyf8J/asus-tuf-gaming-a15-fa507rm-jaeger-gray.jpg",
+    "category": "Laptops",
+    "price": 162900,
+    "description": "Experience powerful gaming performance with the ASUS TUF Gaming A15.",
+    "specification": [
+      "AMD Ryzen 7 6800H Processor",
+      "16GB 3200MHz RAM + 512GB SSD",
+      "RTX 3060 6GB Laptop GPU",
+      "15.6' FHD 144Hz Display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "L002",
+    "product_title": "ASUS ROG STRIX G15 G513RM",
+    "product_image": "https://i.postimg.cc/j248hnzQ/asus-rog-strix-g15-g513qm-laptop-grey-5.jpg",
+    "category": "Laptops",
+    "price": 185000,
+    "description": "Premium gaming experience with the ROG Strix G15.",
+    "specification": [
+      "15.6-inch Full HD Display",
+      "Ryzen 7 6800H Processor",
+      "16GB RAM 512GB SSD",
+      "RTX 3060 6GB Graphics"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "L003",
+    "product_title": "ASUS TUF A15 FA506QM",
+    "product_image": "https://i.postimg.cc/L6mQ8vpy/asus-tuf-gaming-a15-fa506qm-156-r7-laptop.jpg",
+    "category": "Laptops",
+    "price": 149000,
+    "description": "Durable laptop with powerful performance.",
+    "specification": [
+      "Ryzen 7 5800H Processor",
+      "16GB DDR4 RAM + 512GB SSD",
+      "RTX 3060 6GB Laptop GPU",
+      "15.6' FHD 144Hz Display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "L004",
+    "product_title": "HP ProBook 440 G9",
+    "product_image": "https://i.postimg.cc/CLJPBDMw/hp-probook-440-g9-intel-i5-1235u-14-inch-fhd-laptop.jpg",
+    "category": "Laptops",
+    "price": 90000,
+    "description": "Professional laptop for business productivity.",
+    "specification": [
+      "Intel i5 12th Gen Processor",
+      "8GB RAM",
+      "512GB SSD",
+      "14 inch Full HD Display",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "L005",
+    "product_title": "ASUS ExpertBook B5 B5302CEA",
+    "product_image": "https://i.postimg.cc/NjMN1MLm/Expert-Book-B5-06.jpg",
+    "category": "Laptops",
+    "price": 108000,
+    "description": "Military-grade laptop for professionals.",
+    "specification": [
+      "13.3 Inch Display",
+      "Core i5 11th Gen",
+      "8GB DDR4 Ram",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "L006",
+    "product_title": "Acer Extensa 15 EX215-54-57SB",
+    "product_image": "https://i.postimg.cc/0yBVZsJ3/acer-extensa-15-ex215-54-37ah-laptop-3.jpg",
+    "category": "Laptops",
+    "price": 66500,
+    "description": "Affordable laptop for everyday computing needs.",
+    "specification": [
+      "Intel Core i5-1135G7 Processor",
+      "8GB DDR4 3200MHz RAM",
+      "1TB SATA HDD/256GB SSD",
+      "15.6 FHD (1920x1080) Display"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "L007",
+    "product_title": "Apple MacBook Air MGN63",
+    "product_image": "https://i.postimg.cc/zXd7XrpB/macbook-air-m1-chip-gray-1.jpg",
+    "category": "Laptops",
+    "price": 94000,
+    "description": "Sleek and powerful MacBook Air with M1 chip.",
+    "specification": [
+      "Chipset: M1",
+      "Memory: 8GB",
+      "Storage: 256GB SSD",
+      "Security: Fingerprint Reader"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "L008",
+    "product_title": "MSI Thin 15 B13UC",
+    "product_image": "https://i.postimg.cc/j5LwXpP8/msi-thin-15-b13uc-core-i5-13th-gen-rtx-3050-gaming-laptop.jpg",
+    "category": "Laptops",
+    "price": 107000,
+    "description": "Slim laptop with powerful graphics.",
+    "specification": [
+      "Intel Core i5 13th Gen Processor",
+      "RTX 3050 4GB GDDR6 Graphics",
+      "8GB RAM | 512GB SSD",
+      "15.6' FHD 144Hz Display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "L009",
+    "product_title": "ACER NITRO 5 V15 ANV15-51-55B9",
+    "product_image": "https://i.postimg.cc/858tQm4m/acer-aspire-5-5p-a515-58p-laptop.jpg",
+    "category": "Laptops",
+    "price": 139900,
+    "description": "High-performance laptop with latest graphics.",
+    "specification": [
+      "Intel Core i5-13420H 13th Gen",
+      "NVIDIA RTX 4050-6GB Graphics",
+      "16GB RAM | 512GB SSD",
+      "15.6' IPS 144Hz SlimBezel"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "A001",
+    "product_title": "Baykron Type C To Type C 1.2M 3A Cable",
+    "product_image": "https://i.postimg.cc/XvC5wSWn/Baykron-Type-C-to-Type-C-1-2-M-3-A-Cable-20-005016-01.jpg",
+    "category": "Accessories",
+    "price": 700,
+    "description": "3A High Speed Charging, 1.2 Meters Long Working Time, Long Lasting Resistance, Lifespan 15000+ Times",
+    "specification": [
+      "3A High Speed Charging",
+      "1.2 Meters Long Working Time",
+      "Long Lasting Resistance",
+      "Lifespan 15000+ Times"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "A002",
+    "product_title": "Energizer CIA10 In-Ear Wired Black Earphone",
+    "product_image": "https://i.postimg.cc/13T6nRLW/energizer-cia10-in-ear-wired-black-earphone-01.jpg",
+    "category": "Accessories",
+    "price": 1070,
+    "description": "Wired earphone with microphone and type-earphone connection.",
+    "specification": [
+      "Connection Type - Wired",
+      "Microphone - Yes",
+      "Type - Earphone",
+      "Plug Type - 3.5mm"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "A003",
+    "product_title": "Energizer UIX30 TWS Bluetooth Earbuds",
+    "product_image": "https://i.postimg.cc/sg17gG0Q/energizer-uix30-tws-bluetooth-earbuds-02.jpg",
+    "category": "Accessories",
+    "price": 2100,
+    "description": "100% Wireless Technology, Reliable Connection, High-Quality Sound, Carbon Effect.",
+    "specification": [
+      "100% Wireless Technology, Reliable Connection",
+      "High-Quality Sound, Carbon Effect",
+      "Bluetooth 5.0, Battery Life: 4 Hours",
+      "Comfortable Adjustable Tips"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "A004",
+    "product_title": "Energizer UIX35 Lightning Wired Earphone",
+    "product_image": "https://i.postimg.cc/PrS1HQKn/energizer-uil35-lightning-wired-earphone-02.jpg",
+    "category": "Accessories",
+    "price": 2050,
+    "description": "Wired earphone with Lightning connector.",
+    "specification": [
+      "Frequency 20Hz-20KHz",
+      "Impedance 32 Ohm",
+      "Cable Length 1.1m/3.6ft",
+      "Drivers 10mm"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "A005",
+    "product_title": "Energizer CIA5 In-Ear Wired One Button Earphone",
+    "product_image": "https://i.postimg.cc/15mDbjGK/energizer-cia5-in-ear-wired-one-button-earphone-01.jpg",
+    "category": "Accessories",
+    "price": 595,
+    "description": "Wired earphone with one-button control and microphone.",
+    "specification": [
+      "Connection Type - Wired",
+      "Microphone - Yes",
+      "Type - Earphone",
+      "Plug Type - 3.5mm"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "A006",
+    "product_title": "Baykron Cable USB To Micro 1.2 M Cable",
+    "product_image": "https://i.postimg.cc/Y0pmKvWS/baykron-cable-usb-to-micro-12-m-02.jpg",
+    "category": "Accessories",
+    "price": 450,
+    "description": "USB to Micro 1.2M cable with universal compatibility.",
+    "specification": [
+      "6.54 X 3.94 X 1.18 Cm",
+      "20-05517",
+      "Universal Compatibility",
+      "Zinc Alloy + Braided Wire"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "A007",
+    "product_title": "Logitech Spotlight Presentation Remote",
+    "product_image": "https://i.postimg.cc/B651VTty/Logitech-Wireless-Presenter-USB-Bluetooth.jpg",
+    "category": "Accessories",
+    "price": 15000,
+    "description": "Presentation remote with advanced features.",
+    "specification": [
+      "SPECS & DETAILS/DIMENSIONS",
+      "Remote:Height X Width X Depth: 5.2 In (13.1 M M) X 1.1 In (28.1 M M) X 0.5 In (12.1 MM)/Weight: 1.7 Oz (49.2 G)",
+      "Included BatteryReceiver:Height X Width X Depth."
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "A008",
+    "product_title": "HP MP7035 Gaming Mouse Pad (Large)",
+    "product_image": "https://i.postimg.cc/vT3xQGrt/HP-MP7035-1.jpg",
+    "category": "Accessories",
+    "price": 650,
+    "description": "Large gaming mouse pad with precision woven material.",
+    "specification": [
+      "Precision Woven",
+      "Natural Material",
+      "Contoured",
+      "Bottom With Anti-Skid"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "A009",
+    "product_title": "Logitech M350 Portable Wireless Mouse",
+    "product_image": "https://i.postimg.cc/Y9BWRn2Y/logitech-m350-pebble-mouse-jpg-1.jpg",
+    "category": "Accessories",
+    "price": 2450,
+    "description": "Intelligent wireless mouse with Bluetooth connectivity.",
+    "specification": [
+      "Intelligently Switch Among Multiple Devices",
+      "Wireless: 2.4GHz, Bluetooth: 3.0, 4.0",
+      "1000 DPI Optical Tracking",
+      "Up To 18 Months Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.5
+  }
+]

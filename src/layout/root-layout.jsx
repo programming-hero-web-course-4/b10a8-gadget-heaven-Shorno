@@ -1,5 +1,6 @@
 import {Outlet, useLocation} from "react-router-dom";
 import {Footer, Navbar} from "../components/index.js";
+import {ProductProvider} from "../context/ProductContext.jsx";
 
 export default function RootLayout() {
     const location = useLocation();
@@ -7,11 +8,11 @@ export default function RootLayout() {
 
     return (
 
-        <div>
+        <ProductProvider>
             {!isIndex && <Navbar/>}
             <Outlet/>
             <Footer/>
-        </div>
+        </ProductProvider>
 
     )
 }
