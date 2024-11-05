@@ -1,7 +1,7 @@
-import {useContext} from 'react';
+import {useContext, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import {ProductContext} from '../context/ProductContext';
-import { Heart, ShoppingCart , Star} from "lucide-react"
+import {Heart, ShoppingCart, Star} from "lucide-react"
 
 export const ProductDetails = () => {
     const {productName} = useParams();
@@ -11,13 +11,16 @@ export const ProductDetails = () => {
     const filedStar = parseInt(product.rating);
     const unfilledStar = 5 - filedStar;
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     if (!product) {
         return <div>Product not found</div>;
     }
-    console.log(product)
 
     return (
-        <div>
+        <div className={"pb-72"}>
             <section className={"bg-purple-600 flex-col flex justify-center items-center gap-8 py-8 pb-64 relative"}>
                 <div className={"container mx-auto flex flex-col gap-4 justify-center items-center text-center"}>
                     <h1 className={"text-2xl text-white font-bold"}>Product Details</h1>
@@ -26,7 +29,8 @@ export const ProductDetails = () => {
                         to the coolest accessories, we have it all!</p>
                 </div>
             </section>
-            <div className="card lg:card-side bg-base-100 shadow-lg max-w-4xl  absolute bottom-0 -translate-y-1/2 translate-x-1/2 ">
+            <div
+                className="card lg:card-side bg-base-100 shadow-lg max-w-4xl  absolute bottom-0 -translate-y-1/3 translate-x-1/2 ml-20">
                 <figure className="lg:w-1/2">
                     <img
                         src={product.product_image}

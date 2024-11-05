@@ -2,7 +2,7 @@ export const Footer = () => {
     return (
         <>
 
-            <div className={"bg-base-100 mt-96 py-20"}>
+            <div className={"bg-base-100 pt-44"}>
                 <div className={"flex flex-col text-center py-8 gap-4"}>
                     <h1 className={"text-3xl font-bold"}>Gadget Haven</h1>
                     <p className={"text-zinc-950/50"}>Leading the way in cutting-edge technology and innovation.</p>

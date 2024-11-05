@@ -1,9 +1,9 @@
-import {NavLink} from "react-router-dom";
+import {NavLink, useLocation} from "react-router-dom";
 import {Heart, ShoppingCart} from "lucide-react";
 
 export const Navbar = () => {
 
-    const isIndex = location.pathname === "/";
+    const isIndex = useLocation().pathname === "/";
 
 
     const activeLinkStyle = `font-semibold underline ${isIndex ? "text-white" : null} text-purple-600`

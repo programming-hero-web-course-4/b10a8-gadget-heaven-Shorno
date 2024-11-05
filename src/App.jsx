@@ -1,6 +1,6 @@
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from "react-router-dom";
 import RootLayout from "./layout/root-layout.jsx";
-import {Dashboard, Home, ProductDetails, Statistics} from "./pages/index.jsx";
+import {CategoryProducts, Dashboard, Home, ProductDetails, Statistics} from "./pages/index.jsx";
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path={"statistics"} element={<Statistics/>}/>
             <Route path={"dashboard"} element={<Dashboard/>}/>
-            <Route path={"product/:productName"} element={<ProductDetails/>}/>
-
+            <Route path={"/:productName"} element={<ProductDetails/>}/>
+            <Route path={"category/:category"} element={<CategoryProducts/>}/>
         </Route>
     ))
     return <RouterProvider router={router}/>

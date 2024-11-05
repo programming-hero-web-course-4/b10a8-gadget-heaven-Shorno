@@ -286,5 +286,258 @@
     ],
     "availability": true,
     "rating": 4.5
+  },
+  {
+    "product_id": "P001",
+    "product_title": "AMD RYZEN 9 7900X 4.7 GHZ 12-CORE AM5 PROCESSOR",
+    "product_image": "https://i.postimg.cc/mrCcCBsB/amd-ryzen-9-7900x-processor.jpg",
+    "category": "Processors",
+    "price": 40800,
+    "description": "High-performance desktop processor for AM5 socket",
+    "specification": [
+      "12 Cores & 24 Threads",
+      "4.7 GHz Base Clock",
+      "5.6 GHz Max Boost Clock",
+      "Socket AM5"
+    ],
+    "availability": true,
+    "rating": 5
+  },
+  {
+    "product_id": "P002",
+    "product_title": "AMD Ryzen 7 8700G 8 Core 16 Thread AM5 Processor",
+    "product_image": "https://i.postimg.cc/QdR9FVvf/amd-ryzen-7-8700g-processor.jpg",
+    "category": "Processors",
+    "price": 33600,
+    "description": "AMD desktop processor with integrated Radeon graphics",
+    "specification": [
+      "Frequency Up To: 5.1GHz",
+      "Base Frequency: 4.2GHz",
+      "Number Of Cores: 8",
+      "Number Of Threads: 16"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P003",
+    "product_title": "AMD Ryzen 5 5600G AM4 Socket Processor",
+    "product_image": "https://i.postimg.cc/qRGzDwqF/Ryzen-5-5600.jpg",
+    "category": "Processors",
+    "price": 13900,
+    "description": "Mid-range processor with integrated Radeon graphics",
+    "specification": [
+      "Speed: 3.9GHz Up To 4.4GHz",
+      "Memory Speed: 3200 MHz",
+      "Cores: 6, Threads: 12",
+      "Cache: L2: 3 MB, L3: 16 MB"
+    ],
+    "availability": true,
+    "rating": 5
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Intel Core i7 14700 14th Gen Raptor Lake Processor",
+    "product_image": "https://i.postimg.cc/ZKsyhwHt/intel-core-i7-14700-14th-gen-raptor-lake-processor.jpg",
+    "category": "Processors",
+    "price": 47500,
+    "description": "14th Generation Intel Core processor for desktop computing",
+    "specification": [
+      "Base Frequency 4.2 GHz",
+      "Turbo Frequency 5.4 GHz",
+      "Maximum Size 192 GB",
+      "Maximum Speed 89.6 GB/S"
+    ],
+    "availability": true,
+    "rating": 4
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Intel Core i3-10100F 4 Core 8 Thread 10th Gen Processor",
+    "product_image": "https://i.postimg.cc/CxZnMbrZ/intel-i3-10100f-processor-price-in-bd-1.jpg",
+    "category": "Processors",
+    "price": 7900,
+    "description": "Entry-level desktop processor for budget builds",
+    "specification": [
+      "4 Cores & 8 Threads",
+      "3.6 GHz Base Clock",
+      "4.3 GHz Turbo Clock",
+      "Socket: LGA 1200"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P006",
+    "product_title": "AMD RYZEN 7 7700 3.8GHZ 8 CORES AM5 GAMING PROCESSOR",
+    "product_image": "https://i.postimg.cc/wMf3gBhc/amd-ryzen-7-7700-gaming-processor-1.jpg",
+    "category": "Processors",
+    "price": 25000,
+    "specification": [
+      "Clock Speed: 3.8GHz Up To 5.3GHz",
+      "Cores: 8, Threads: 16",
+      "L2 Cache: 8MB, L3 Cache: 32MB",
+      "Socket: AM5"
+    ],
+    "availability": true,
+    "rating": 4
+  },
+  {
+    "product_id": "P007",
+    "product_title": "INTEL CORE i9-13900K 3 GHZ 24-CORE LGA 1700 13TH PROCESSOR",
+    "product_image": "https://i.postimg.cc/brNd7n2w/intel-core-i9-13900k-processor.jpg",
+    "category": "Processors",
+    "price": 62000,
+    "specification": [
+      "24 Cores & 32 Threads",
+      "3 GHz P-Core Clock Speed",
+      "5.7 GHz Maximum Turbo Frequency",
+      "LGA 1700 Socket"
+    ],
+    "availability": true,
+    "rating": 3.8
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Intel Core i5-12400 6 Core 12 Thread 12th Gen Processor",
+    "product_image": "https://i.postimg.cc/HxmrtRY5/intel-i5-12400-12th-gen-processor.jpg",
+    "category": "Processors",
+    "price": 15000,
+    "specification": [
+      "Clock Speed: 2.50 GHz Up To 4.40 GHz",
+      "Cache: 18MB, Socket: LGA 1700",
+      "CPU Cores: 6, CPU Threads: 12",
+      "Graphic: Intel UHD Graphics 730"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "G001",
+    "product_title": "INTEL ARC A750 Limited Edition 8GB VIDEO GRAPHICS CARD",
+    "product_image": "https://i.postimg.cc/TPz4NjFn/arc-a750.jpg",
+    "category": "Graphics Cards",
+    "price": 28500,
+    "description": "Limited Edition Intel Arc GPU",
+    "specification": [
+      "Memory Size: 8 GB",
+      "Memory Type: GDDR6",
+      "Graphics Memory Interface: 256 Bit",
+      "Graphics Memory Speed: 16 Gbps"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "G002",
+    "product_title": "GUNNIR INTEL ARC A770 PHOTON 16G OC GRAPHICS CARD",
+    "product_image": "https://i.postimg.cc/mkR6BLbD/gunnir-intel-arc-a770-photon-8g-oc-graphics-card-1.jpg",
+    "category": "Graphics Cards",
+    "price": 37000,
+    "description": "High-performance Intel Arc GPU with OC",
+    "specification": [
+      "Video Memory: 16GB",
+      "Core Clock: 2400MHz",
+      "HDMI: 1*HDMI 2.0",
+      "Display Port: 3*DP"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "G003",
+    "product_title": "MSI GEFORCE RTX 4060 VENTUS 2X BLACK 8G OC 8GB GRAPHICS CARD",
+    "product_image": "https://i.postimg.cc/508khYWT/Ge-Force-RTX-4060-VENTUS-2-X-BLACK-8-G-OC-1.jpg",
+    "category": "Graphics Cards",
+    "price": 43000,
+    "description": "MSI RTX 4060 with Dual Fan Design",
+    "specification": [
+      "Model Name: GeForce RTX 4060 VENTUS 2X BLACK 8G OC",
+      "Graphics Processing Unit: NVIDIA GeForce RTX 4060",
+      "Interface: PCI Express Gen 4 X 8",
+      "Core Clocks: Extreme Performance: 2505 MHz (MSI Center) Boost: 2490 MHz"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "G004",
+    "product_title": "MAXSUN RTX 3060 Terminator 12GB Graphics Card",
+    "product_image": "https://i.postimg.cc/JztY1dWb/maxsun-rtx-3060-terminator-8gb-gpu-1.jpg",
+    "category": "Graphics Cards",
+    "price": 39500,
+    "description": "RTX 3060 GPU with 12GB Memory",
+    "specification": [
+      "Max Resolution: 7680 X 4320",
+      "Memory Interface: 128 Bit",
+      "Power Connector: 8pin",
+      "Memory Type: GDDR6"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "G005",
+    "product_title": "MAXSUN GeForce RTX 4060 iCraft OC 8G Limited X2 Graphics Card",
+    "product_image": "https://i.postimg.cc/rFVYHwnZ/maxsun-rtx-4060-icraft-oc-8g-limited-x2-gpu-1.jpg",
+    "category": "Graphics Cards",
+    "price": 44000,
+    "description": "Limited Edition RTX 4060 with OC",
+    "specification": [
+      "Architecture: Ada Lovelace",
+      "GPU: AD107",
+      "Technology: 5nm",
+      "Cuda Cores: 3072 Units"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "G006",
+    "product_title": "GIGABYTE GEFORCE RTX 4060 EAGLE OC 8GB GDDR6 GRAPHICS CARD",
+    "product_image": "https://i.postimg.cc/VLKHPP2f/gigabyte-rtx-4060-eagle-oc-8gb-graphics-card.jpg",
+    "category": "Graphics Cards",
+    "price": 45500,
+    "description": "Gigabyte RTX 4060 with Eagle Cooling",
+    "specification": [
+      "Memory Clock: 17 Gbps",
+      "Memory Size: 8 GB",
+      "Memory Type: GDDR6",
+      "Memory Bus: 128 Bit"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "G007",
+    "product_title": "Gigabyte GeForce RTX 3060 Gaming OC 12G Graphics Card",
+    "product_image": "https://i.postimg.cc/wxcGFmVs/gigabyte-rtx-3060-gaming-oc-12g-graphics-card-2.jpg",
+    "category": "Graphics Cards",
+    "price": 45000,
+    "description": "Gigabyte Gaming OC RTX 3060",
+    "specification": [
+      "3584 CUDA Cores",
+      "Ampere Architecture",
+      "12GB Of GDDR6 VRAM",
+      "15000 MHz Memory Clock"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "G008",
+    "product_title": "AFOX RADEON RX550 4GB GDDR5 DUAL FAN GRAPHICS CARD",
+    "product_image": "https://i.postimg.cc/cCmkJpHc/AFOX-RADEON-RX550-500x500-01.jpg",
+    "category": "Graphics Cards",
+    "price": 16200,
+    "description": "Entry-level RX 550 with Dual Fan Cooling",
+    "specification": [
+      "Memory Type: GDDR5",
+      "Memory Size: 4 GB",
+      "Connection: PCI Express 3.0 X16",
+      "Core Clock: 1183 MHz"
+    ],
+    "availability": true,
+    "rating": 4.1
   }
 ]

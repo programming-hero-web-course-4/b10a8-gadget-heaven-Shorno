@@ -1,45 +1,36 @@
-import {useContext} from "react";
+import {useContext, useMemo, useState} from "react";
 import {ProductContext} from "../context/ProductContext.jsx";
-import {ProductCard} from "./product-card.jsx";
-import {Link} from "react-router-dom";
+import {ProductGrid,CategoryFilter } from "./index.js"
 
 export const ProductSection = () => {
-
+    const [selectedCategory, setSelectedCategory] = useState('');
     const products = useContext(ProductContext);
 
-    const categories = [...new Set(products.map(product => product.category))];
+    const categories = useMemo(() => {
+        return [...new Set(products.map(product => product.category))];
+    }, [products]);
+
+    const filteredProducts = selectedCategory
+        ? products.filter(p => p.category === selectedCategory)
+        : products;
+
 
 
     return (
-        <>
-            <div className={"container mx-auto flex flex-col justify-center items-center gap-8"}>
-                <h1 className={"font-bold text-4xl"}>
-                    Explore Cutting-Edge Products
-                </h1>
-                <div className={"grid grid-cols-6 w-fit gap-8"}>
-                    <div className={"col-span-1"}>
-                        <h2>Product Category</h2>
-                        <button className={"btn rounded-full btn-sm my-4"}>All Category</button>
-                        <div className={"flex flex-col gap-4"}>
-                            {
+        <div className="container mx-auto px-4 py-8">
+            <h1 className="font-bold text-4xl text-center mb-12">
+                Explore Cutting-Edge Products
+            </h1>
 
-                                categories.map((category, index) => (
-                                    <div key={index}>
-                                        <button className={"btn rounded-full btn-sm"}>{category}</button>
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </div>
-                    <div className={"col-span-5"}>
-                        <div className={"grid grid-cols-3 gap-4"}>
-                            {products.map((product) => (
-                                <ProductCard key={product.product_id} product={product}/>
-                            ))}
-                        </div>
-                    </div>
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
+                <CategoryFilter
+                    categories={categories}
+                    selectedCategory={selectedCategory}
+                    onSelectCategory={setSelectedCategory}
+                />
+
+                <ProductGrid products={filteredProducts} />
             </div>
-        </>
-    )
+        </div>
+    );
 }
