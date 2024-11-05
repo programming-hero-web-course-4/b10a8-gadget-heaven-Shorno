@@ -61,7 +61,7 @@
       "14 inch Full HD Display",
       "Windows 11"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.4
   },
   {
@@ -109,7 +109,7 @@
       "Storage: 256GB SSD",
       "Security: Fingerprint Reader"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.8
   },
   {
@@ -173,7 +173,7 @@
       "Type - Earphone",
       "Plug Type - 3.5mm"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.7
   },
   {
@@ -205,7 +205,7 @@
       "Cable Length 1.1m/3.6ft",
       "Drivers 10mm"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.4
   },
   {
@@ -252,7 +252,7 @@
       "Remote:Height X Width X Depth: 5.2 In (13.1 M M) X 1.1 In (28.1 M M) X 0.5 In (12.1 MM)/Weight: 1.7 Oz (49.2 G)",
       "Included BatteryReceiver:Height X Width X Depth."
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.5
   },
   {
@@ -284,7 +284,7 @@
       "1000 DPI Optical Tracking",
       "Up To 18 Months Battery Life"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.5
   },
   {
@@ -348,7 +348,7 @@
       "Maximum Size 192 GB",
       "Maximum Speed 89.6 GB/S"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4
   },
   {
@@ -379,7 +379,7 @@
       "L2 Cache: 8MB, L3 Cache: 32MB",
       "Socket: AM5"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4
   },
   {
@@ -409,7 +409,7 @@
       "CPU Cores: 6, CPU Threads: 12",
       "Graphic: Intel UHD Graphics 730"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.4
   },
   {
@@ -441,7 +441,7 @@
       "HDMI: 1*HDMI 2.0",
       "Display Port: 3*DP"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.3
   },
   {
@@ -489,7 +489,7 @@
       "Technology: 5nm",
       "Cuda Cores: 3072 Units"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.6
   },
   {
@@ -537,7 +537,7 @@
       "Connection: PCI Express 3.0 X16",
       "Core Clock: 1183 MHz"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.1
   }
 ]

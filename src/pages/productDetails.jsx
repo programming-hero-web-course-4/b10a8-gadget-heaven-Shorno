@@ -15,6 +15,9 @@ export const ProductDetails = () => {
         window.scrollTo(0, 0);
     }, []);
 
+    const inStockStyle = "bg-green-100 border border-green-500 text-green-800";
+    const outOfStockStyle = "bg-red-100 border border-red-500 text-red-800";
+
     if (!product) {
         return <div>Product not found</div>;
     }
@@ -42,7 +45,7 @@ export const ProductDetails = () => {
                     <h2 className="card-title text-2xl font-bold">{product.product_title}</h2>
                     <div className="flex flex-col  gap-2 justify-start items-start">
                         <p className="text-xl font-semibold">Price: {product.price} TK</p>
-                        <p className="badge bg-green-100 border border-green-500 text-green-800 gap-2">In Stock</p>
+                        <p className={`badge ${product.availability === true ? inStockStyle : outOfStockStyle}  gap-2`}>{product.availability === true ? "In Stock" : "Out Of Stock"}</p>
                     </div>
 
                     <p className="text-gray-600">
