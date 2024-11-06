@@ -373,6 +373,7 @@
     "product_image": "https://i.postimg.cc/wMf3gBhc/amd-ryzen-7-7700-gaming-processor-1.jpg",
     "category": "Processors",
     "price": 25000,
+    "description": "High-performance gaming processor for AM5 socket",
     "specification": [
       "Clock Speed: 3.8GHz Up To 5.3GHz",
       "Cores: 8, Threads: 16",
@@ -388,6 +389,7 @@
     "product_image": "https://i.postimg.cc/brNd7n2w/intel-core-i9-13900k-processor.jpg",
     "category": "Processors",
     "price": 62000,
+    "description": "High-performance Intel Core processor for LGA 1700 socket",
     "specification": [
       "24 Cores & 32 Threads",
       "3 GHz P-Core Clock Speed",
@@ -403,6 +405,7 @@
     "product_image": "https://i.postimg.cc/HxmrtRY5/intel-i5-12400-12th-gen-processor.jpg",
     "category": "Processors",
     "price": 15000,
+    "description": "Mid-range Intel Core processor for desktop computing",
     "specification": [
       "Clock Speed: 2.50 GHz Up To 4.40 GHz",
       "Cache: 18MB, Socket: LGA 1700",

@@ -1,8 +1,9 @@
-export const Dashboard = () => {
+import CartSection from "../components/cart-section.jsx";
 
+export const Dashboard = () => {
     return (
         <>
-            <div>
+            <div className={"bg-base-200"}>
                 <section className={"bg-purple-600 flex-col flex justify-center items-center gap-8 py-8"}>
                     <div className={"container mx-auto flex flex-col gap-4 justify-center items-center text-center"}>
                         <h1 className={"text-2xl text-white font-bold"}>Dashboard</h1>
@@ -15,6 +16,7 @@ export const Dashboard = () => {
                         <button className={"btn px-10 rounded-full"}>Wishlist</button>
                     </div>
                 </section>
+                <CartSection/>
             </div>
         </>
     )

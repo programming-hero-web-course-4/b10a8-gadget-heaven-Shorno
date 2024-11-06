@@ -1,15 +1,23 @@
-import {useContext, useEffect} from 'react';
+import {useContext, useEffect, useState} from 'react';
 import {useParams} from 'react-router-dom';
 import {ProductContext} from '../context/ProductContext';
 import {Heart, ShoppingCart, Star} from "lucide-react"
 
 export const ProductDetails = () => {
     const {productName} = useParams();
-    const products = useContext(ProductContext);
-    const product = products.find(p => p.product_title.replace(/\s+/g, '-').toLowerCase() === productName);
+    const {products, addToCart} = useContext(ProductContext);
+    const [product, setProduct] = useState(null)
 
-    const filedStar = parseInt(product.rating);
-    const unfilledStar = 5 - filedStar;
+    useEffect(() => {
+        if (products.length > 0) {
+            const foundProduct = products.find(
+                p => p.product_title.replace(/\s+/g, '-').toLowerCase() === productName
+            );
+            if (foundProduct) {
+                setProduct(foundProduct);
+            }
+        }
+    }, [products, productName]);
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -18,9 +26,8 @@ export const ProductDetails = () => {
     const inStockStyle = "bg-green-100 border border-green-500 text-green-800";
     const outOfStockStyle = "bg-red-100 border border-red-500 text-red-800";
 
-    if (!product) {
-        return <div>Product not found</div>;
-    }
+    const filedStar = product ? parseInt(product.rating) : 0;
+    const unfilledStar = product ? 5 - filedStar : 0;
 
     return (
         <div className={"pb-72"}>
@@ -32,7 +39,7 @@ export const ProductDetails = () => {
                         to the coolest accessories, we have it all!</p>
                 </div>
             </section>
-            <div
+            {product && <div
                 className="card lg:card-side bg-base-100 shadow-lg max-w-4xl  absolute bottom-0 -translate-y-1/3 translate-x-1/2 ml-20">
                 <figure className="lg:w-1/2">
                     <img
@@ -55,10 +62,9 @@ export const ProductDetails = () => {
                     <div className="space-y-2">
                         <h3 className="font-semibold">Specification:</h3>
                         <ul className="list-decimal list-inside text-black/60 space-y-1">
-                            <li>Intel i7 11th Gen</li>
-                            <li>16GB RAM</li>
-                            <li>512GB SSD</li>
-                            <li>Touchscreen</li>
+                            {product.specification.map((spec, index) => (
+                                <li key={index}>{spec}</li>
+                            ))}
                         </ul>
                     </div>
 
@@ -76,7 +82,9 @@ export const ProductDetails = () => {
                     </div>
 
                     <div className="card-actions justify-start items-center gap-4 mt-4">
-                        <button className="btn bg-purple-500  text-white font-semibold gap-2 rounded-full">
+                        <button className="btn bg-purple-500  text-white font-semibold gap-2 rounded-full"
+                                onClick={() => addToCart(product)}
+                        >
                             Add To Cart
                             <ShoppingCart className="w-5 h-5"/>
                         </button>
@@ -86,6 +94,7 @@ export const ProductDetails = () => {
                     </div>
                 </div>
             </div>
+            }
         </div>
     );
 };

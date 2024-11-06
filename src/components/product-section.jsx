@@ -4,7 +4,7 @@ import {ProductGrid,CategoryFilter } from "./index.js"
 
 export const ProductSection = () => {
     const [selectedCategory, setSelectedCategory] = useState('');
-    const products = useContext(ProductContext);
+    const {products} = useContext(ProductContext);
 
     const categories = useMemo(() => {
         return [...new Set(products.map(product => product.category))];

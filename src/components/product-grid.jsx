@@ -1,5 +1,5 @@
+/*eslint-disable*/
 import {ProductCard} from "./product-card.jsx";
-/* eslint-disable react/prop-types */
 
 
 export const ProductGrid = ({ products }) => {
